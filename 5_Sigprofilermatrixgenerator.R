@@ -1,6 +1,6 @@
 # ==================================================
 # Script: 5_Sigprofilermatrixgenerator.R
-# Description: Descompression of OGM raw data as a first step in the PULPO pipeline
+# Description: Execution of SigProfilermatrixgenerator 
 # Author: Marta Portasany
 # Created on: 2025-02-27
 # Last modified: 2025-02-27
