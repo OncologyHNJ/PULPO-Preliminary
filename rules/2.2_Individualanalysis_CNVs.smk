@@ -15,8 +15,6 @@ rule sigprofilermatrixgeneratorcnv:
         Rscript {params.script} {input.sigprofilercnv} {params.pythondirectory} {output.output} {wildcards.anonymised} {output.cnvmatrix}  || true &> {params.log_file}
         """
 
-
-
 rule sigprofilerextractorcnv:
     input:
         cnvmatrix = f"{resultsdir}/Patients/{{anonymised}}/SigProfiler/results/CNVs/MatrixGenerator/{{anonymised}}.CNV48.matrix.tsv",
