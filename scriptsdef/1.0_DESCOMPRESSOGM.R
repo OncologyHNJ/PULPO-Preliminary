@@ -1,4 +1,12 @@
-###PULPO DESCOMPRESS ZIPS###
+# ==================================================
+# Script: 1.0_DESCOMPRESSOGM.R
+# Description: Descompression of OGM raw data as a first step in the PULPO pipeline
+# Author: Marta Portasany
+# Created on: 2025-02-27
+# Last modified: 2025-02-27
+# Pipeline: PULPO
+# Dependencies: stringr, readr
+# ==================================================
 library(stringr)
 library(readr)
 #############################
