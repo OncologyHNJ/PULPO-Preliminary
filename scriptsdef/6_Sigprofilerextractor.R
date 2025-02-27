@@ -1,6 +1,6 @@
 # ==================================================
 # Script: 5_Sigprofilermatrixgenerator.R
-# Description: Execution of SigProfilermatrixgenerator 
+# Description: Execution of SigProfilerextractor
 # Author: Marta Portasany
 # Created on: 2025-02-27
 # Last modified: 2025-02-27
