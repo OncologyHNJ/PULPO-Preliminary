@@ -1,14 +1,18 @@
-#######CREATED BY:MARTA PORTASANY########
-#############MERGEDCOHORT#################
+# ==================================================
+# Script: 7_Mergecohortsvs.R
+# Description: Merge individual samples to get a cohort-file
+# Author: Marta Portasany
+# Created on: 2025-02-27
+# Last modified: 2025-02-27
+# Pipeline: PULPO
+# Dependencies: reticulate, SigProfilerMatrixGeneratorR
+# ==================================================
 #########################################
 args <- commandArgs(trailingOnly = TRUE)
 directorypatients <- args[1]
 outputcohort <- args[2]
 #########################################
-#directorypatients <- "/home/user/MARTA/PULPO_RevisadoBionano/results/Patients"
-#"/home/marta/TESIS/OGM+WES/mutationalsignaturesOGM/results/Patient-1/SigProfiler/results/MatrixGenerator"
-#outputcohort <- "/home/user/MARTA/PULPO_RevisadoBionano/results/Cohort/SVs/Cohort.SV32.matrix.tsv"
-#########################################
+
 # List all files in the patients directory
 patients <- list.files(directorypatients)
 directories <- list()
@@ -26,10 +30,8 @@ for (j in directories) {
     file <- read.table(j, header = TRUE)
     files <- append(files, list(file))  # Almacenar cada archivo como un elemento de la lista
   } else {
-    warning(paste("El archivo", j, "no existe"))
+    warning(paste("The file", j, "does not exist"))
   }
- # file <- read.table(j, header = TRUE)
-#  files <- append(files, list(file))  # Store each file as an element in the list
 }
 
 # Convert the list of files into a single data frame
@@ -47,13 +49,6 @@ for (k in 1:length(files)) {
     message(paste("Some file is either empty or has only one row Skipping."))
   }
 }
-
-# Rename the columns to include patient names
-#colnames(cohortfile) <- c("MutationType", paste0("Patient-", 1:(ncol(cohortfile)-1)))
-
-# Remove the 'files.' prefix from the column names, if present
-#colnames(cohortfile) <- sub("^files\\.", "", colnames(cohortfile))
-
 
 write.table(cohortfile, file = outputcohort, sep = "\t", row.names = FALSE, quote = FALSE)
 
