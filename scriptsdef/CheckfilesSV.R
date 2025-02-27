@@ -7,13 +7,13 @@
 # Pipeline: PULPO
 # Dependencies: Base R (no external packages required)
 # ==================================================
-##############################################################################
+
 # Get command line arguments
 args <- commandArgs(trailingOnly = TRUE)
 patient <- args[1]
 inputsv <- args[2]
 error_log <- file.path(inputsv, "check_svs_error.txt")
-##############################################################################
+
 
 # Error handling function
 handle_error <- function(e) {
