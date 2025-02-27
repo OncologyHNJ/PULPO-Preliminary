@@ -7,12 +7,12 @@
 # Pipeline: PULPO
 # Dependencies: Base R (no external packages required)
 # ==================================================
-############################################################################################################
+
 args <- commandArgs(trailingOnly = TRUE)
 patient <- args[1]
 inputcnv <- args[2]
 error_log <- file.path(inputcnv, "check_cnvs_error.txt")  # Error file
-############################################################################################################
+
 # Clear previous error file if exists
 if (file.exists(error_log)) {
   file.remove(error_log)
