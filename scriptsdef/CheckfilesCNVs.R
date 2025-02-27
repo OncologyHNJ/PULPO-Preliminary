@@ -1,3 +1,12 @@
+# ==================================================
+# Script: CheckfilesCNVs.R
+# Description: Checking whether raw decompressed CNV files of OGM are empty or not
+# Author: Marta Portasany
+# Created on: 2025-02-27
+# Last modified: 2025-02-27
+# Pipeline: PULPO
+# Dependencies: Base R (no external packages required)
+# ==================================================
 ############################################################################################################
 args <- commandArgs(trailingOnly = TRUE)
 patient <- args[1]
