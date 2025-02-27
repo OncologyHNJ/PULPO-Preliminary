@@ -1,3 +1,12 @@
+# ==================================================
+# Script: CheckfilesSV.R
+# Description: Checking whether raw decompressed SV files of OGM are empty or not
+# Author: Marta Portasany
+# Created on: 2025-02-27
+# Last modified: 2025-02-27
+# Pipeline: PULPO
+# Dependencies: Base R (no external packages required)
+# ==================================================
 ##############################################################################
 # Get command line arguments
 args <- commandArgs(trailingOnly = TRUE)
