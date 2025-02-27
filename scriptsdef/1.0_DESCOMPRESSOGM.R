@@ -9,16 +9,12 @@
 # ==================================================
 library(stringr)
 library(readr)
-#############################
+#===================================================
 args <- commandArgs(trailingOnly = TRUE)
 ogmdirectory <- args[1]
 workdirectory <- args[2]
 samplesfile <- args[3]
-####### VARIABLES ############
-#ogmdirectory <- "/home/user/MARTA/DATA/Bionanocohort/RVA_LLA_Cohorte_paper"
-#workdirectory <- "/home/user/MARTA/PULPO_ejecutadoprueba"
-#samplesfile <- "/home/user/MARTA/PULPO_ejecutadoprueba/config/samplesall_cohort.tsv"
-##############################
+
 filter_and_remove_files <- function(directory) {
   # Define search patterns
   smap_pattern <- "\\.smap$"  # Allow any file ending with .smap
