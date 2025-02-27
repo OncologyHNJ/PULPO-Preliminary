@@ -5,7 +5,7 @@
 # Created on: 2025-02-27
 # Last modified: 2025-02-27
 # Pipeline: PULPO
-# Dependencies: reticulate, devtools, SigProfilerMatrixGeneratorR
+# Dependencies: reticulate, devtools, SigProfilerExtractorR
 # ==================================================
 #########################################
 args <- commandArgs(trailingOnly = TRUE)
