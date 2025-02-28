@@ -76,5 +76,4 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 
 ## Contact
 
-If you have any questions or issues, open an issue on GitHub or contact the developers.
-
+If you have any questions, issues or bug reports open an issue on GitHub or contact us in bioinformaticafibhunj@gmail.com.
