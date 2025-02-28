@@ -70,7 +70,7 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 
 - `Snakefile` - Archivo principal del pipeline.
 - `rules/` - Reglas de Snakemake organizadas por etapas del análisis.
-- `scriptsdef/` - Scripts adicionales para procesamiento de datos.
+- `scripts/` - Scripts adicionales para procesamiento de datos.
 - `config/` - Archivos de configuración.
 
 ## Contacto
