@@ -1,0 +1,21 @@
+# Version of the configuration file
+version: 1.0
+# Input files and directories
+input:
+  samples: "/home/user/MARTA/PULPO_ejecutadoprueba/config/samplesall_PULPO.tsv"
+  bionanodata: "/home/user/MARTA/DATA/Revisado_Bionano"
+
+directories:
+  workdirectory: "/home/user/MARTA/PULPO_RevisadoBionano"
+  pythonenvdir: "/home/user/miniconda3/envs/PULPO/bin/python3.10"
+  scriptsdir: "/home/user/MARTA/PULPO_ejecutadoprueba/scripts"
+# Specific configuration of the analysis
+# Type of analysis: simple sample or cohort
+analysis:
+  analysis_type: "CNVs"  # options: SVs, CNVs, SVs_and_CNVs
+  run_cohort_analysis: TRUE # TRUE - Cohort analysis FALSE- Only individual analysis
+file_types:
+  CNVs: "csv" # it can be "bed" "txt" or "csv"
+  SVs: "smap" # it can be "bedpe" or "smap"
+BionanoAccess:
+  version: "1.6.1" #options: 1.6.1 or 1.8.1
