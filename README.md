@@ -2,6 +2,22 @@
 
 PULPO is a Snakemake-based pipeline for analyzing structural variants (SVs) and copy number variations (CNVs) in Optical Genome Mapping (OGM) data.
 
+## Table of Contents
+
+1. [Installation](#installation)  
+2. [Configuration](#configuration)  
+   - [configpulpo.yaml](#configpulpoyaml)  
+   - [Input Files and Directories](#1-input-files-and-directories)  
+   - [Directory Paths](#2-directory-paths)  
+   - [Analysis Configuration](#3-analysis-configuration)  
+   - [File Type Specification](#4-file-type-specification)  
+   - [BionanoAccess Software Version](#5-bionanoaccess-software-version)  
+3. [Usage](#usage)  
+   - [Running specific steps](#running-specific-steps)  
+   - [Main rules](#main-rules)  
+   - [Error handling and debugging](#error-handling-and-debugging)  
+4. [Repository structure](#repository-structure)  
+5. [Contact](#contact)  
 ## Installation
 
 To run PULPO, follow these steps:
