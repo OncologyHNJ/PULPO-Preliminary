@@ -27,11 +27,6 @@ To run PULPO, follow these steps:
    ```
 
 ## Configuration
-The pipeline uses 2 config files from the folder /config/ :
-   - PULPO.yml: Config file to create the conda env where the pipeline will be executed.
-   - configpulpo.yaml: This is the main configuration file of the pipeline. You can select here your type of analysis or the combination of it.
-
-## Configuration
 
 The pipeline uses two configuration files located in the `/config/` folder:
 
