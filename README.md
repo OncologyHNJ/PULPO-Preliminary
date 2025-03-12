@@ -138,6 +138,3 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 If you have any questions, issues or bug reports open an issue on GitHub or contact us in bioinformaticafibhunj@gmail.com.
 
 
-## CÁLCULO DE REQUISITOS MÍNIMOS
-/usr/bin/time -v snakemake --dry-run
-
