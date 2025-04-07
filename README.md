@@ -4,7 +4,9 @@
 <br><br><br>
 
 
-# PULPO (Pipeline of understanding large-scale patterns of oncogenomic signatures)
+# PULPO: Pipeline of understanding large-scale patterns of oncogenomic signatures
+###### Implemented by Marta Portasany-Rodríguez
+
 
 PULPO is a Snakemake-based pipeline for analyzing structural variants (SVs) and copy number variations (CNVs) in Optical Genome Mapping (OGM) data.
 
