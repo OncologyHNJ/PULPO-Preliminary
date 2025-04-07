@@ -1,4 +1,4 @@
-<img src="./.figs/PULPOlogo.png" width="320" align="right">
+<img src="./PULPOlogo.png" width="320" align="right">
 <br><br><br>
 <br><br><br>
 <br><br><br>
