@@ -8,7 +8,9 @@
 
 ###### Implemented by: 
 ***Marta Portasany-Rodríguez***
+
 *Gonzalo Soria-Alcaide*
+
 *Jorge García-Martínez*
 
 ## Introduction
