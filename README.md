@@ -14,6 +14,8 @@
 *Jorge García-Martínez*
 
 ## Introduction
+<img src="./.figs/Graphical_Abstract.png" align="right" width="500"/>
+<br clear="left"/>
 
 PULPO is a Snakemake-based pipeline for analyzing structural variants (SVs) and copy number variations (CNVs) from Optical Genome Mapping (OGM) data.
 
