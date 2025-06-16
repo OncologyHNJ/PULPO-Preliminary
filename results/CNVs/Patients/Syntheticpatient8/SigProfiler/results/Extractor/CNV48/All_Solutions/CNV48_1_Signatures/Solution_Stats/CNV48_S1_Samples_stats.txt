@@ -1,0 +1,2 @@
+Sample Names	Total Mutations	Cosine Similarity	L1 Norm	L1_Norm_%	L2 Norm	L2_Norm_%	KL Divergence	Correlation
+Syntheticpatient8	29	1.0	0.542	1.869%	0.202	1.501%	0.00062	1.0

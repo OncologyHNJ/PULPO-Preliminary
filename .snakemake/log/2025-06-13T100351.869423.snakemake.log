@@ -1,0 +1,143 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count
+------------------  -------
+bedpetosigprofiler        5
+check_svs                 2
+formatbedpe               2
+total                     9
+
+Select jobs to execute...
+
+[Fri Jun 13 10:03:55 2025]
+rule bedpetosigprofiler:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient8/ProcessData/Syntheticpatient8.bedpe
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerSVdf.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient8/SigProfiler/bedpetosigprofilermatrix.log
+    jobid: 29
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerSVdf.bedpe
+    wildcards: anonymised=Syntheticpatient8
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 10:03:56 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/Check/check_svs_done.txt
+    jobid: 6
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 10:03:56 2025]
+rule bedpetosigprofiler:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient2/ProcessData/Syntheticpatient2.bedpe
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerSVdf.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient2/SigProfiler/bedpetosigprofilermatrix.log
+    jobid: 23
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerSVdf.bedpe
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 10:03:56 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    jobid: 8
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:56 2025]
+Finished job 6.
+1 of 56 steps (2%) done
+Select jobs to execute...
+
+[Fri Jun 13 10:03:56 2025]
+rule bedpetosigprofiler:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient10/ProcessData/Syntheticpatient10.bedpe
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerSVdf.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient10/SigProfiler/bedpetosigprofilermatrix.log
+    jobid: 31
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerSVdf.bedpe
+    wildcards: anonymised=Syntheticpatient10
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:56 2025]
+Finished job 8.
+2 of 56 steps (4%) done
+Select jobs to execute...
+
+[Fri Jun 13 10:03:56 2025]
+rule formatbedpe:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/Check/check_svs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/ProcessData/Syntheticpatient5.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient5/formatbedpe/formatbedpe.log
+    jobid: 16
+    reason: Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:57 2025]
+Finished job 16.
+3 of 56 steps (5%) done
+Select jobs to execute...
+
+[Fri Jun 13 10:03:57 2025]
+rule formatbedpe:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/ProcessData/Syntheticpatient7.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient7/formatbedpe/formatbedpe.log
+    jobid: 18
+    reason: Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:57 2025]
+Finished job 18.
+4 of 56 steps (7%) done
+Select jobs to execute...
+
+[Fri Jun 13 10:03:57 2025]
+rule bedpetosigprofiler:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/ProcessData/Syntheticpatient7.bedpe
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerSVdf.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient7/SigProfiler/bedpetosigprofilermatrix.log
+    jobid: 28
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerSVdf.bedpe; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/ProcessData/Syntheticpatient7.bedpe
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:58 2025]
+Finished job 23.
+5 of 56 steps (9%) done
+Select jobs to execute...
+
+[Fri Jun 13 10:03:58 2025]
+rule bedpetosigprofiler:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/ProcessData/Syntheticpatient5.bedpe
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerSVdf.bedpe
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient5/SigProfiler/bedpetosigprofilermatrix.log
+    jobid: 26
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerSVdf.bedpe; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient5/ProcessData/Syntheticpatient5.bedpe
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 10:03:59 2025]
+Finished job 29.
+6 of 56 steps (11%) done
+[Fri Jun 13 10:03:59 2025]
+Finished job 31.
+7 of 56 steps (12%) done
+[Fri Jun 13 10:04:00 2025]
+Finished job 28.
+8 of 56 steps (14%) done
+[Fri Jun 13 10:04:00 2025]
+Finished job 26.
+9 of 56 steps (16%) done
+Complete log: .snakemake/log/2025-06-13T100351.869423.snakemake.log

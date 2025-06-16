@@ -1,0 +1,3 @@
+WorkflowError in file /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/rules/Snakefile, line 1:
+Workflow defines configfile ./config/configpulpo.yaml but it is not present or accessible (full checked path: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/rules/config/configpulpo.yaml).
+  File "/home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/rules/Snakefile", line 1, in <module>

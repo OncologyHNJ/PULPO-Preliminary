@@ -1,0 +1,4 @@
+Signatures	Stability	Total Mutations
+CNV48A	0.436	97
+CNV48B	0.351	86
+CNV48C	0.15	85

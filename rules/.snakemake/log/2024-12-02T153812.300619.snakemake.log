@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count
+-------------  -------
+all                  1
+unzip_bionano       12
+total               13
+
+Select jobs to execute...
+
+[Mon Dec  2 15:38:12 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3256
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    jobid: 9
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    wildcards: bionano=Cells_3256
+    resources: tmpdir=/tmp
+
+Removing output files of failed job unzip_bionano since they might be corrupted:
+/home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-02T153812.300619.snakemake.log

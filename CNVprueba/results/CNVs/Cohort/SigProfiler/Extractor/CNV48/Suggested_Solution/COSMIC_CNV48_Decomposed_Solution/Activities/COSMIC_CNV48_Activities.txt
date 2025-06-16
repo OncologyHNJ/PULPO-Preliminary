@@ -1,0 +1,11 @@
+Samples	CN2	CN13
+Syntheticpatient1	15	11
+Syntheticpatient10	11	14
+Syntheticpatient2	17	11
+Syntheticpatient3	8	20
+Syntheticpatient4	15	12
+Syntheticpatient5	12	13
+Syntheticpatient6	9	17
+Syntheticpatient7	12	15
+Syntheticpatient8	19	10
+Syntheticpatient9	6	21

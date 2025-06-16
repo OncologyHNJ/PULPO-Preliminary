@@ -1,0 +1,161 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                               count
+------------------------------  -------
+all                                   1
+bedpetosigprofiler                   10
+bionanotosigprofilercnv              10
+check_svs                            10
+formatbedpe                          10
+mergepatientcnvs                      1
+mergepatients                         1
+sigprofilerextractor                 10
+sigprofilerextractorcnv              10
+sigprofilerextractorcnvscohort        1
+sigprofilerextractorcohort            1
+sigprofilermatrixgenerator           10
+sigprofilermatrixgeneratorcnv        10
+total                                85
+
+Select jobs to execute...
+
+[Thu Jun 12 17:13:48 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient3/Check/check_svs_done.txt
+    jobid: 4
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient3/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient3
+    resources: tmpdir=/tmp
+
+
+[Thu Jun 12 17:13:49 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    jobid: 8
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient7/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+
+[Thu Jun 12 17:13:49 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient5/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 68
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+
+[Thu Jun 12 17:13:49 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 69
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:49 2025]
+Finished job 8.
+1 of 85 steps (1%) done
+Select jobs to execute...
+
+[Thu Jun 12 17:13:49 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 65
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:49 2025]
+Finished job 4.
+2 of 85 steps (2%) done
+Select jobs to execute...
+
+[Thu Jun 12 17:13:49 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient4/Check/check_svs_done.txt
+    jobid: 5
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient4/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient4
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:49 2025]
+Finished job 5.
+3 of 85 steps (4%) done
+Select jobs to execute...
+
+[Thu Jun 12 17:13:49 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient4/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 67
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient4
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:49 2025]
+Finished job 69.
+4 of 85 steps (5%) done
+Select jobs to execute...
+
+[Thu Jun 12 17:13:49 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient6/Check/check_svs_done.txt
+    jobid: 7
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient6/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:49 2025]
+Finished job 68.
+5 of 85 steps (6%) done
+Select jobs to execute...
+
+[Thu Jun 12 17:13:50 2025]
+rule check_svs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient8/Check/check_svs_done.txt
+    jobid: 9
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient8/Check/check_svs_done.txt
+    wildcards: anonymised=Syntheticpatient8
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 17:13:50 2025]
+Error in rule bionanotosigprofilercnv:
+    jobid: 65
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/bionanotosigprofilercnv.log (check log file(s) for error details)
+    shell:
+        
+        Rscript /home/user/MARTA/LABO/PULPO/PULPO-main/scripts/9.CNVTOFORMAT.R /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata/ /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv Syntheticpatient2 #&> /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/bionanotosigprofilercnv.log
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Jun 12 17:13:50 2025]
+Finished job 7.
+6 of 85 steps (7%) done
+[Thu Jun 12 17:13:50 2025]
+Finished job 9.
+7 of 85 steps (8%) done
+[Thu Jun 12 17:13:50 2025]
+Finished job 67.
+8 of 85 steps (9%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-06-12T171345.016618.snakemake.log

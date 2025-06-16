@@ -1,0 +1,2 @@
+IndentationError in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile, line 168:
+expected an indented block after 'if' statement on line 171

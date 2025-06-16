@@ -1,0 +1,3 @@
+ModuleNotFoundError in file /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/rules/Snakefile, line 1:
+No module named 'panda'
+  File "/home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/rules/Snakefile", line 1, in <module>

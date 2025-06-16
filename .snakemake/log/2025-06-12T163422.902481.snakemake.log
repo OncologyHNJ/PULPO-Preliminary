@@ -1,0 +1,54 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+bionanotosigprofilercnv        1
+check_cnvs                     1
+prepare_ogm_data               1
+total                          3
+
+Select jobs to execute...
+
+[Thu Jun 12 16:34:26 2025]
+rule prepare_ogm_data:
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata
+    jobid: 1
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 16:34:28 2025]
+Finished job 1.
+1 of 15 steps (7%) done
+Select jobs to execute...
+
+[Thu Jun 12 16:34:28 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/Check/check_cnvs_done.txt
+    jobid: 9
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt
+    wildcards: anonymised=Syntheticpatient
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 16:34:28 2025]
+Finished job 9.
+2 of 15 steps (13%) done
+Select jobs to execute...
+
+[Thu Jun 12 16:34:28 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 10
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient
+    resources: tmpdir=/tmp
+
+[Thu Jun 12 16:34:29 2025]
+Finished job 10.
+3 of 15 steps (20%) done
+Complete log: .snakemake/log/2025-06-12T163422.902481.snakemake.log

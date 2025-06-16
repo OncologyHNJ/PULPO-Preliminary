@@ -1,0 +1,21 @@
+The flag 'directory' used in rule formatbedpe is only valid for outputs, not inputs.
+Building DAG of jobs...
+MissingInputException in rule all in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile, line 355:
+Missing input files for rule all:
+    affected files:
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/SigProfiler/results/MatrixGenerator
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/SigProfiler/results/Extractor
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/SVs/Patients/Syntheticpatient/SigProfiler/sigprofilermatrix.log
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/SigProfiler/results/MatrixGenerator/Syntheticpatient.CNV48.matrix.tsv
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/SigProfiler/results/Extractor
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/Check/check_svs_done.txt
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient/SigProfiler/sigprofilercnvmatrixgenerator.log
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/SigProfiler/data/SigProfilerSVdf.bedpe
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Cohort/Cohort.SV32.matrix.tsv
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/Check/check_cnvs_done.txt
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Cohort/SigProfiler/Extractor
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/SigProfiler/results/MatrixGenerator/Syntheticpatient.SV32.matrix.tsv
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Cohort/SigProfiler/MatrixGenerator/Cohort.CNV48.matrix.tsv
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Cohort/SigProfiler
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient/SigProfiler/data/SigProfilerCNVdf.tsv
+        /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/SVs/Patients/Syntheticpatient/ProcessData/Syntheticpatient.bedpe

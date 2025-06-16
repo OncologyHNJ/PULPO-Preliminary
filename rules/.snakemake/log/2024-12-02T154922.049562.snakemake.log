@@ -1,0 +1,204 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count
+-------------  -------
+all                  1
+unzip_bionano       12
+total               13
+
+Select jobs to execute...
+
+[Mon Dec  2 15:49:22 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3256
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    jobid: 9
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log
+    wildcards: bionano=Cells_3256
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:24 2024]
+Finished job 9.
+1 of 13 steps (8%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:24 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3488
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log
+    jobid: 11
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log
+    wildcards: bionano=Cells_3488
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:24 2024]
+Finished job 11.
+2 of 13 steps (15%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:24 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3358
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log
+    jobid: 13
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log
+    wildcards: bionano=Cells_3358
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:25 2024]
+Finished job 13.
+3 of 13 steps (23%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:25 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_2073
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log
+    jobid: 5
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log
+    wildcards: bionano=Cells_2073
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:25 2024]
+Finished job 5.
+4 of 13 steps (31%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:25 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3227
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log
+    jobid: 3
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log
+    wildcards: bionano=Cells_3227
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:26 2024]
+Finished job 3.
+5 of 13 steps (38%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:26 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3011
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log
+    jobid: 2
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log
+    wildcards: bionano=Cells_3011
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:26 2024]
+Finished job 2.
+6 of 13 steps (46%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:26 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_1975
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log
+    jobid: 12
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log
+    wildcards: bionano=Cells_1975
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:27 2024]
+Finished job 12.
+7 of 13 steps (54%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:27 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3361_BM5
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log
+    jobid: 10
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log
+    wildcards: bionano=Cells_3361_BM5
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:28 2024]
+Finished job 10.
+8 of 13 steps (62%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:28 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3239
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log
+    jobid: 8
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log
+    wildcards: bionano=Cells_3239
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:28 2024]
+Finished job 8.
+9 of 13 steps (69%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:28 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3282
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log
+    jobid: 6
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log
+    wildcards: bionano=Cells_3282
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:29 2024]
+Finished job 6.
+10 of 13 steps (77%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:29 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_1573
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log
+    jobid: 1
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log
+    wildcards: bionano=Cells_1573
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:29 2024]
+Finished job 1.
+11 of 13 steps (85%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:29 2024]
+rule unzip_bionano:
+    input: /media/marta/MartaSSD/analisis_final/Bionanozips/Cells_3287
+    output: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log
+    log: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log
+    jobid: 4
+    reason: Missing output files: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log
+    wildcards: bionano=Cells_3287
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:30 2024]
+Finished job 4.
+12 of 13 steps (92%) done
+Select jobs to execute...
+
+[Mon Dec  2 15:49:30 2024]
+localrule all:
+    input: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1739.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1739.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log
+    jobid: 0
+    reason: Input files updated by another job: /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3256.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3011.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3358.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3282.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3488.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1573.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_2073.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3227.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3287.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_1975.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3239.log, /home/marta/TESIS/OGM+WES/PULPO_ejecutadoprueba/logs/unzip_bionanocnv/Cells_3361_BM5.log
+    resources: tmpdir=/tmp
+
+[Mon Dec  2 15:49:30 2024]
+Finished job 0.
+13 of 13 steps (100%) done
+Complete log: .snakemake/log/2024-12-02T154922.049562.snakemake.log

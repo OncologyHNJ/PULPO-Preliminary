@@ -1,0 +1,2 @@
+Samples	CNV48A
+Syntheticpatient3	28

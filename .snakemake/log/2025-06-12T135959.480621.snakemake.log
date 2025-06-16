@@ -1,0 +1,13 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules descompressOGM and prepare_ogm_data are ambiguous for the file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	descompressOGM: 
+	prepare_ogm_data: 
+Expected input files:
+	descompressOGM: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/Data /home/user/MARTA/LABO/PULPO/PULPO_synthetic /home/user/MARTA/LABO/PULPO/PULPO_synthetic/config/samples.tsv
+	prepare_ogm_data: 
+Expected output files:
+	descompressOGM: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata
+	prepare_ogm_data: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient/OGMdata

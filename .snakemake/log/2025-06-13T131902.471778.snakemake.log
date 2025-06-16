@@ -1,0 +1,451 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                              count
+-----------------------------  -------
+bionanotosigprofilercnv             10
+check_cnvs                          10
+prepare_ogm_data                     1
+sigprofilermatrixgeneratorcnv       10
+total                               31
+
+Select jobs to execute...
+
+[Fri Jun 13 13:19:06 2025]
+rule prepare_ogm_data:
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    jobid: 1
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 1.
+1 of 96 steps (1%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/Check/check_cnvs_done.txt
+    jobid: 63
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient10
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/Check/check_cnvs_done.txt
+    jobid: 56
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient3
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/Check/check_cnvs_done.txt
+    jobid: 58
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/Check/check_cnvs_done.txt
+    jobid: 54
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient1
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 63.
+2 of 96 steps (2%) done
+[Fri Jun 13 13:19:08 2025]
+Finished job 56.
+3 of 96 steps (3%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient10/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 73
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient10
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/Check/check_cnvs_done.txt
+    jobid: 60
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 54.
+4 of 96 steps (4%) done
+[Fri Jun 13 13:19:08 2025]
+Finished job 58.
+5 of 96 steps (5%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient1/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 64
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient1
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/Check/check_cnvs_done.txt
+    jobid: 62
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient9
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Fri Jun 13 13:19:08 2025]
+Finished job 60.
+6 of 96 steps (6%) done
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/Check/check_cnvs_done.txt
+    jobid: 61
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient8
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 62.
+7 of 96 steps (7%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/Check/check_cnvs_done.txt
+    jobid: 59
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 61.
+8 of 96 steps (8%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/Check/check_cnvs_done.txt
+    jobid: 57
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient4
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 59.
+9 of 96 steps (9%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 72
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient9
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 73.
+10 of 96 steps (10%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule check_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt
+    jobid: 55
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient9/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient5/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient4/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient8/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient6/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient1/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient10/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient3/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient2/OGMdata, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/DATA/descompressOGM/succesfulldescompresion.txt, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/DATA/Patients/Syntheticpatient7/OGMdata
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 64.
+11 of 96 steps (11%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/results/MatrixGenerator/Syntheticpatient1.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient1/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 74
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/results/MatrixGenerator/Syntheticpatient1.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient1/SigProfiler/sigprofilercnvmatrixgenerator.log; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient1
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:08 2025]
+Finished job 57.
+12 of 96 steps (12%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:08 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 70
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:09 2025]
+Finished job 55.
+13 of 96 steps (14%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:09 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient5/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 68
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:09 2025]
+Finished job 72.
+14 of 96 steps (15%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:09 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator/Syntheticpatient10.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient10/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 83
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator/Syntheticpatient10.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient10/SigProfiler/sigprofilercnvmatrixgenerator.log; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient10
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:09 2025]
+Finished job 70.
+15 of 96 steps (16%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:09 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient3/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 66
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient3
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:09 2025]
+Finished job 68.
+16 of 96 steps (17%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:09 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/results/MatrixGenerator/Syntheticpatient5.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient5/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 78
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient5/SigProfiler/sigprofilercnvmatrixgenerator.log, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/results/MatrixGenerator/Syntheticpatient5.CNV48.matrix.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient5/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient5
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:10 2025]
+Finished job 66.
+17 of 96 steps (18%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:10 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/results/MatrixGenerator/Syntheticpatient3.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient3/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 76
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/results/MatrixGenerator/Syntheticpatient3.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient3/SigProfiler/sigprofilercnvmatrixgenerator.log; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient3/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient3
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:17 2025]
+Finished job 74.
+18 of 96 steps (19%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:17 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient8/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 71
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient8
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:17 2025]
+Finished job 83.
+19 of 96 steps (20%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:17 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 69
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:18 2025]
+Finished job 71.
+20 of 96 steps (21%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:18 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/results/MatrixGenerator/Syntheticpatient8.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient8/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 81
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient8/SigProfiler/sigprofilercnvmatrixgenerator.log, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/results/MatrixGenerator/Syntheticpatient8.CNV48.matrix.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient8/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient8
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:18 2025]
+Finished job 78.
+21 of 96 steps (22%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:18 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient4/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 67
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient4
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:18 2025]
+Finished job 69.
+22 of 96 steps (23%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:18 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator/Syntheticpatient9.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 82
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/sigprofilercnvmatrixgenerator.log, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator/Syntheticpatient9.CNV48.matrix.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient9
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:19 2025]
+Finished job 76.
+23 of 96 steps (24%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:19 2025]
+rule bionanotosigprofilercnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    log: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/bionanotosigprofilercnv.log
+    jobid: 65
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/Check/check_cnvs_done.txt
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:19 2025]
+Finished job 67.
+24 of 96 steps (25%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:19 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/results/MatrixGenerator/Syntheticpatient4.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient4/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 77
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/results/MatrixGenerator/Syntheticpatient4.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient4/SigProfiler/sigprofilercnvmatrixgenerator.log; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient4/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient4
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:19 2025]
+Finished job 65.
+25 of 96 steps (26%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:19 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator/Syntheticpatient2.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 75
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator/Syntheticpatient2.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/sigprofilercnvmatrixgenerator.log; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:28 2025]
+Finished job 81.
+26 of 96 steps (27%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:28 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator/Syntheticpatient6.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 79
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/sigprofilercnvmatrixgenerator.log, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator/Syntheticpatient6.CNV48.matrix.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:28 2025]
+Finished job 82.
+27 of 96 steps (28%) done
+Select jobs to execute...
+
+[Fri Jun 13 13:19:28 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator/Syntheticpatient7.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 80
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/sigprofilercnvmatrixgenerator.log, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator/Syntheticpatient7.CNV48.matrix.tsv; Input files updated by another job: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+[Fri Jun 13 13:19:29 2025]
+Finished job 77.
+28 of 96 steps (29%) done
+[Fri Jun 13 13:19:29 2025]
+Finished job 75.
+29 of 96 steps (30%) done
+[Fri Jun 13 13:19:38 2025]
+Finished job 79.
+30 of 96 steps (31%) done
+[Fri Jun 13 13:19:38 2025]
+Finished job 80.
+31 of 96 steps (32%) done
+Complete log: .snakemake/log/2025-06-13T131902.471778.snakemake.log

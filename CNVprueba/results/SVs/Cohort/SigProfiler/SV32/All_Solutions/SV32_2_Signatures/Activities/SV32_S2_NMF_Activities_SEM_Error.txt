@@ -1,0 +1,11 @@
+Samples	SV32A	SV32B
+Syntheticpatient1	3.34E-01	3.34E-01
+Syntheticpatient10	2.93E-01	2.93E-01
+Syntheticpatient2	2.46E-01	2.46E-01
+Syntheticpatient3	2.77E-01	2.77E-01
+Syntheticpatient4	3.21E-01	3.21E-01
+Syntheticpatient5	3.13E-01	3.13E-01
+Syntheticpatient6	3.53E-01	3.53E-01
+Syntheticpatient7	2.63E-01	2.63E-01
+Syntheticpatient8	3.14E-01	3.14E-01
+Syntheticpatient9	2.58E-01	2.58E-01

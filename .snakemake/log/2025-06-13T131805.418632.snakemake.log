@@ -1,0 +1,98 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                              count
+-----------------------------  -------
+sigprofilermatrixgeneratorcnv        6
+total                                6
+
+Select jobs to execute...
+
+[Fri Jun 13 13:18:09 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator/Syntheticpatient6.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 79
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator/Syntheticpatient6.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/sigprofilercnvmatrixgenerator.log
+    wildcards: anonymised=Syntheticpatient6
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:18:10 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator/Syntheticpatient7.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 80
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator/Syntheticpatient7.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/sigprofilercnvmatrixgenerator.log
+    wildcards: anonymised=Syntheticpatient7
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:18:10 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator/Syntheticpatient9.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 82
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator/Syntheticpatient9.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/sigprofilercnvmatrixgenerator.log
+    wildcards: anonymised=Syntheticpatient9
+    resources: tmpdir=/tmp
+
+
+[Fri Jun 13 13:18:10 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator/Syntheticpatient2.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 75
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator/Syntheticpatient2.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/sigprofilercnvmatrixgenerator.log; Updated input files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/data/SigProfilerCNVdf.tsv
+    wildcards: anonymised=Syntheticpatient2
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule sigprofilermatrixgeneratorcnv in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/2.2_Individualanalysis_CNVs.smk, line 1:
+Job 82  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator/Syntheticpatient9.CNV48.matrix.tsv
+Removing output files of failed job sigprofilermatrixgeneratorcnv since they might be corrupted:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient9/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient9/SigProfiler/sigprofilercnvmatrixgenerator.log
+Select jobs to execute...
+
+[Fri Jun 13 13:18:22 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient1/SigProfiler/results/MatrixGenerator/Syntheticpatient1.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient1/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 74
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient1/SigProfiler/sigprofilercnvmatrixgenerator.log
+    wildcards: anonymised=Syntheticpatient1
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule sigprofilermatrixgeneratorcnv in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/2.2_Individualanalysis_CNVs.smk, line 1:
+Job 80  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator/Syntheticpatient7.CNV48.matrix.tsv
+Removing output files of failed job sigprofilermatrixgeneratorcnv since they might be corrupted:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient7/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient7/SigProfiler/sigprofilercnvmatrixgenerator.log
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule sigprofilermatrixgeneratorcnv in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/2.2_Individualanalysis_CNVs.smk, line 1:
+Job 79  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient6/SigProfiler/results/MatrixGenerator/Syntheticpatient6.CNV48.matrix.tsv
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient6/SigProfiler/sigprofilercnvmatrixgenerator.log
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule sigprofilermatrixgeneratorcnv in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/2.2_Individualanalysis_CNVs.smk, line 1:
+Job 75  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient2/SigProfiler/results/MatrixGenerator/Syntheticpatient2.CNV48.matrix.tsv
+/home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient2/SigProfiler/sigprofilercnvmatrixgenerator.log
+Select jobs to execute...
+
+[Fri Jun 13 13:18:37 2025]
+rule sigprofilermatrixgeneratorcnv:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/data/SigProfilerCNVdf.tsv
+    output: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator/Syntheticpatient10.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient10/SigProfiler/sigprofilercnvmatrixgenerator.log
+    jobid: 83
+    reason: Missing output files: /home/user/MARTA/LABO/PULPO/PULPO_synthetic/results/CNVs/Patients/Syntheticpatient10/SigProfiler/results/MatrixGenerator/Syntheticpatient10.CNV48.matrix.tsv, /home/user/MARTA/LABO/PULPO/PULPO_synthetic/logs/CNVs/Patients/Syntheticpatient10/SigProfiler/sigprofilercnvmatrixgenerator.log
+    wildcards: anonymised=Syntheticpatient10
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.

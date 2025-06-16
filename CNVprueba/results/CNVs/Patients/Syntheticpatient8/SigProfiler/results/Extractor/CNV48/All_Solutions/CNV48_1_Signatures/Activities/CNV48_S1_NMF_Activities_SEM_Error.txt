@@ -1,0 +1,2 @@
+Samples	CNV48A
+Syntheticpatient8	0.00E+00
