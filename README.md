@@ -1,3 +1,7 @@
+```markdown
+![License](https://img.shields.io/badge/license-MIT-green)
+![Snakemake](https://img.shields.io/badge/Snakemake-v1.0-blue)
+![Conda](https://img.shields.io/badge/Conda-environment-green)
 <img src="./PULPOlogo.png" width="220" align="right">
 <br><br><br>
 <br><br><br>
@@ -34,7 +38,17 @@ PULPO v.1.0 is a novel, fully automated Snakemake-based pipeline for analyzing s
    - [Main rules](#main-rules)  
    - [Error handling and debugging](#error-handling-and-debugging)  
 4. [Repository structure](#repository-structure)  
-5. [Contact](#contact)  
+5. [Contact](#contact)
+
+## Quick Start
+
+```bash
+git clone https://github.com/OncologyHNJ/PULPO.git
+cd PULPO
+conda env create -f config/PULPO.yml
+conda activate PULPO
+snakemake --cores 4
+```
 ## Installation
 
 To run PULPO, follow these steps:
