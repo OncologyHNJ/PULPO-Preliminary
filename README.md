@@ -1,7 +1,7 @@
 
 <!-- Logo aligned to the right -->
 <p align="right">
-  <img src="./PULPOlogo (1).png" width="220">
+  <img src=".figs/PULPOlogo (1).png" width="220">
 </p>
 
 <!-- Title and description -->
