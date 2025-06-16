@@ -181,7 +181,7 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 - [SigProfilerMatrixGenerator](https://github.com/AlexandrovLab/SigProfilerMatrixGenerator)
 
 
-## Contact 
+## Contact 📬
 
 If you have any questions, issues or bug reports open an issue on GitHub or contact us in bioinformaticafibhunj@gmail.com.
 
@@ -195,11 +195,11 @@ We have dedicated categories for:
 - 🧪 [Help with Installation](https://github.com/OncologyHNJ/PULPO/discussions/categories/help-with-installation)
 - 🐛 [Bug troubleshooting](https://github.com/OncologyHNJ/PULPO/discussions/categories/bug-troubleshooting)
 
-## License
+## License 🧾
 
 This project is licensed under the MIT License.
 
-## Citation
+## Citation 🧾
 
 If you use PULPO in your research, please cite:
 
