@@ -20,7 +20,7 @@ if not expected_columns.issubset(sample_table.columns):
 
 # Dictionaries for easy access
 bionano_to_anonymised = sample_table.set_index('bionano')['anonymised'].to_dict()
-# Crear el diccionario inverso
+# Create the reverse dictionary
 anonymised_to_bionano = {v: k for k, v in bionano_to_anonymised.items()}
 
 # Wildcards
@@ -36,6 +36,8 @@ resultsdir = f"{workdirectory}/results"
 os.makedirs(workdirectory, exist_ok=True)
 os.makedirs(logsdir, exist_ok=True)
 os.makedirs(resultsdir, exist_ok=True)
+
+include: "rules/0_prepare_ogm_data.smk"
 
 #Validate analysis options
 
@@ -53,7 +55,7 @@ def validate_config(config):
     if analysis_config['analysis_type'] not in valid_types:
         raise ValueError(f"Invalid analysis_type: {analysis_config['analysis_type']}. Must be one of {valid_types}.")
 
-        # Print the corresponding message according to the type of analysis.
+    # Print the corresponding message according to the type of analysis.
     if analysis_config['analysis_type'] == "SVs":
         print("You have selected 'SVs' as the analysis type. Proceeding with SVs analysis...")
     elif analysis_config['analysis_type'] == "CNVs":
@@ -84,12 +86,14 @@ pythonenvdir = config['directories']['pythonenvdir']
 snakefiles_to_include = []
 all_targets = []
 
+ruleorder: prepare_ogm_data > descompressOGM
 
 if config['analysis']['run_cohort_analysis'] == True:
     if config['analysis']['analysis_type'] == "SVs":
         if config['file_types']['SVs'] == "smap":
             snakefiles_to_include.append("rules/1.1_Preprocessing_SVs.smk")
-            all_targets.extend([f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
                                 f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata/",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/Check/check_svs_done.txt",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/ProcessData/{{anonymised}}.bedpe",
@@ -126,7 +130,8 @@ if config['analysis']['run_cohort_analysis'] == True:
     elif config['analysis']['analysis_type'] == "CNVs":
         if config['file_types']['CNVs'] == "csv" or config['file_types']['CNVs'] == "txt":
             snakefiles_to_include.append("rules/1.2_Preprocessing_CNVs.smk")
-            all_targets.extend([f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
                                 f"{resultsdir}/CNVs/Patients/{{anonymised}}/Check/check_cnvs_done.txt",
                                 f"{resultsdir}/CNVs/Patients/{{anonymised}}/SigProfiler/data/SigProfilerCNVdf.tsv",
                                 f"{logsdir}/CNVs/Patients/{{anonymised}}/SigProfiler/sigprofilercnvmatrixgenerator.log",
@@ -163,10 +168,10 @@ if config['analysis']['run_cohort_analysis'] == True:
             raise ValueError(f"Error in {config['file_types']['CNVs']}. The options for CNVs file extensions are: csv, txt or bed. Please check your configfile (default: configpulpo.yml) and try it again.")
 
     elif config['analysis']['analysis_type'] == "SVs_and_CNVs":
-
         if config['file_types']['SVs'] == "smap" and config['file_types']['CNVs'] == "csv" or config['file_types']['CNVs'] == "txt":
             snakefiles_to_include.append("rules/1.1_Preprocessing_SVs.smk")
-            all_targets.extend([f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
                                 f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata/",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/Check/check_svs_done.txt",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/ProcessData/{{anonymised}}.bedpe",
@@ -236,7 +241,8 @@ elif config['analysis']['run_cohort_analysis'] == False:
     if config['analysis']['analysis_type'] == "SVs":
         if config['file_types']['SVs'] == "smap":
             snakefiles_to_include.append("rules/1.1_Preprocessing_SVs.smk")
-            all_targets.extend([f"{resultsdir}/Patients/{{anonymised}}/SigProfiler/data/{{anonymised}}.bedpe",
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{resultsdir}/Patients/{{anonymised}}/SigProfiler/data/{{anonymised}}.bedpe",
                                 f"{resultsdir}/Patients/{{anonymised}}/OGMdata/check_svs_done.txt"
                                 ])
 
@@ -252,7 +258,8 @@ elif config['analysis']['run_cohort_analysis'] == False:
     elif config['analysis']['analysis_type'] == "CNVs":
         if config['file_types']['CNVs'] == "csv" or config['file_types']['CNVs'] == "txt":
             snakefiles_to_include.append("rules/1.2_Preprocessing_CNVs.smk")
-            all_targets.extend([f"{resultsdir}/Patients/{{anonymised}}/OGMdata/check_cnvs_done.txt"
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{resultsdir}/Patients/{{anonymised}}/OGMdata/check_cnvs_done.txt"
                                 f"{resultsdir}/Patients/{{anonymised}}/SigProfiler/data/SigProfilerCNVdf.tsv"])
             snakefiles_to_include.append("rules/2.2_Individualanalysis_CNVs.smk")
             all_targets.extend([
@@ -276,7 +283,8 @@ elif config['analysis']['run_cohort_analysis'] == False:
         if config['file_types']['SVs'] == "smap" and config['file_types']['CNVs'] == "csv" or config['file_types'][
             'CNVs'] == "txt":
             snakefiles_to_include.append("rules/1.1_Preprocessing_SVs.smk")
-            all_targets.extend([f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+            all_targets.extend([rules.prepare_ogm_data.output.done,
+                                f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
                                 f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata/",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/Check/check_svs_done.txt",
                                 f"{resultsdir}/SVs/Patients/{{anonymised}}/ProcessData/{{anonymised}}.bedpe",
@@ -363,16 +371,18 @@ rule descompressOGM:
         workdirectory = f"{workdirectory}",
         samplesfile = config['input']['samples']
     output:
-        done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+       # done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
         OGM = directory(expand(f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata",anonymised = sample_table['anonymised']))
 
     params:
         script = f"{config['directories']['scriptsdir']}/1.0_DESCOMPRESSOGM.R"
     log:
-        logfile = f"{logsdir}/DATA/descompressOGM/descompress.log"
+        logfile = f"{logsdir}/DATA/descompressOGM/descompress.log",
+        done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+
     shell:
         """
         Rscript {params.script} {input.ogmdirectory} {input.workdirectory} {input.samplesfile} &> {log.logfile} || true
-        touch {output.done}
+        touch {log.done}
         """
 
