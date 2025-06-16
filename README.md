@@ -1,7 +1,7 @@
-<img src="./PULPOlogo.png" width="220" align="right">
-<br><br><br>
-<br><br><br>
-<br><br><br>
+#<img src="./PULPOlogo.png" width="220" align="right">
+#<br><br><br>
+#<br><br><br>
+#<br><br><br>
 
 <!-- Logo alineado a la derecha -->
 <p align="right">
