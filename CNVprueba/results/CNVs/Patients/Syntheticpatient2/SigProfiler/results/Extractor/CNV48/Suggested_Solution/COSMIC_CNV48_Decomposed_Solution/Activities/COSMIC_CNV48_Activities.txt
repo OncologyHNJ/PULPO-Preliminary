@@ -1,2 +1,0 @@
-Samples	CN2	CN13
-Syntheticpatient2	17	11

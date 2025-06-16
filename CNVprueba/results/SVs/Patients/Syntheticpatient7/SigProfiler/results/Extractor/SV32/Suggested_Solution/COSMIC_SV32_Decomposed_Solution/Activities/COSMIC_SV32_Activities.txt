@@ -1,2 +1,0 @@
-Samples	SV2
-Syntheticpatient7	16
