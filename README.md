@@ -181,7 +181,7 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 
 If you have any questions, issues or bug reports open an issue on GitHub or contact us in bioinformaticafibhunj@gmail.com.
 
-## 💬 Community Support
+## Community Support 💬
 
 If you have questions, ideas, or run into issues, feel free to join the conversation in our [Discussions](https://github.com/OncologyHNJ/PULPO/discussions)!
 
@@ -191,7 +191,7 @@ We have dedicated categories for:
 - 🧪 [Help with Installation](https://github.com/OncologyHNJ/PULPO/discussions/categories/help-with-installation)
 - 🐛 [Bug troubleshooting](https://github.com/OncologyHNJ/PULPO/discussions/categories/bug-troubleshooting)
 
-- ## License
+## License
 
 This project is licensed under the MIT License.
 
