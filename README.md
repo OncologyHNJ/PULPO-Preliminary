@@ -1,14 +1,14 @@
 
-<!-- Logo alineado a la derecha -->
+<!-- Logo aligned to the right -->
 <p align="right">
   <img src="./PULPOlogo.png" width="220">
 </p>
 
-<!-- Título y descripción -->
+<!-- Title and description -->
 <h1 align="left"> PULPO</h1>
 <h3 align="left"> Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
 
-<!-- Badges alineados a la derecha -->
+<!-- Badges aligned to the right -->
 <p align="right">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"/>
   <img src="https://img.shields.io/badge/Snakemake-v1.0-blue" alt="Snakemake Version"/>
