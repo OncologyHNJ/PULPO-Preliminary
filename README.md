@@ -5,8 +5,8 @@
 </p>
 
 <!-- Título y descripción -->
-<h1 align="left">🧠 PULPO</h1>
-<h3 align="left">Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
+<h1 align="left"> PULPO</h1>
+<h3 align="left"> Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
 
 <!-- Badges alineados a la derecha -->
 <p align="right">
@@ -25,7 +25,7 @@
 <br><br><br>
 <br><br><br>
 
-### 👩‍🔬 Implemented by:
+### Implemented by:
 
 - **Marta Portasany-Rodríguez**  
 - *Gonzalo Soria-Alcaide*  
