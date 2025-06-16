@@ -1,3 +1,0 @@
-KeyError in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile, line 167:
-'zip'
-  File "/home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile", line 167, in <module>

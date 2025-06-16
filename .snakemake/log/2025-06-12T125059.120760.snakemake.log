@@ -1,4 +1,0 @@
-WorkflowError in file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile, line 332:
-Failed to open source file /home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/1.1_Preprocessing_SVs.smk
-FileNotFoundError: [Errno 2] No such file or directory: '/home/user/MARTA/LABO/PULPO/PULPO_synthetic/rules/1.1_Preprocessing_SVs.smk'
-  File "/home/user/MARTA/LABO/PULPO/PULPO_synthetic/Snakefile", line 332, in <module>
