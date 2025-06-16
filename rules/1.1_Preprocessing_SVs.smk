@@ -1,8 +1,8 @@
 rule check_svs:
     input:
-        done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+      #  done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+      	done = rules.prepare_ogm_data.output.done,
         OGM = f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata",
-
     output:
         output= f"{resultsdir}/SVs/Patients/{{anonymised}}/Check/check_svs_done.txt",
     params:

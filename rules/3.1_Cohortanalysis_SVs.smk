@@ -1,7 +1,6 @@
 
 rule mergepatients:
     input:
-       # directorypatients = f"{resultsdir}/SVs/",
         log_file = expand(f"{logsdir}/SVs/Patients/{{anonymised}}/SigProfiler/sigprofilermatrix.log", anonymised=sample_table['anonymised'])
     output:
         outputcohort = f"{resultsdir}/SVs/Cohort/Cohort.SV32.matrix.tsv",

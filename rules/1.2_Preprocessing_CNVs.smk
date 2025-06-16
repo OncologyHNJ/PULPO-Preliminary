@@ -1,6 +1,6 @@
 rule check_cnvs:
     input:
-        done = f"{logsdir}/DATA/descompressOGM/succesfulldescompresion.txt",
+        done = rules.prepare_ogm_data.output.done,
         OGM = expand(f"{resultsdir}/DATA/Patients/{{anonymised}}/OGMdata", anonymised=sample_table['anonymised'])
 
     output:
