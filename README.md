@@ -29,22 +29,26 @@
 
 PULPO v.1.0 is a novel, fully automated Snakemake-based pipeline for analyzing structural variants (SVs) and copy number variations (CNVs) from Optical Genome Mapping (OGM) data. Built using Snakemake and executed within an isolated, Conda-managed environment, PULPO transforms complex cytogenetic alterations, captured at ultra-high resolution, into Catalogue of somatic mutations in Cancer (COSMIC)-based mutational signatures. This innovative approach not only enables researchers to work directly from raw OGM inputs but also streamlines the traditionally complex process of signature extraction, making advanced oncogenomic analyses accessible to users with varying levels of bioinformatics expertise. By facilitating the integration of comprehensive structural variants (SV) and copy number variants (CNV) data with established signature catalogs, PULPO paves the way for improved diagnostic accuracy and personalized therapeutic strategies.
 
-## Table of Contents
+## 📚 Table of Contents
 
-1. [Installation](#installation)  
-2. [Configuration](#configuration)  
-   - [configpulpo.yaml](#configpulpoyaml)  
-      - [Input Files and Directories](#1-input-files-and-directories)  
-      - [Directory Paths](#2-directory-paths)  
-      - [Analysis Configuration](#3-analysis-configuration)  
-      - [File Type Specification](#4-file-type-specification)  
-      - [BionanoAccess Software Version](#5-bionanoaccess-software-version)  
-3. [Usage](#usage)  
-   - [Running specific steps](#running-specific-steps)  
-   - [Main rules](#main-rules)  
-   - [Error handling and debugging](#error-handling-and-debugging)  
-4. [Repository structure](#repository-structure)  
-5. [Contact](#contact)
+1. [🚀 Quick Start](#quick-start)  
+2. [🛠️ Installation](#installation)  
+3. [⚙️ Configuration](#configuration)  
+   - [📁 Input Files and Directories](#1-input-files-and-directories)  
+   - [📂 Directory Paths](#2-directory-paths)  
+   - [🧪 Analysis Configuration](#3-analysis-configuration)  
+   - [📄 File Type Specification](#4-file-type-specification)  
+   - [🔢 BionanoAccess Software Version](#5-bionanoaccess-software-version)  
+4. [📈 Usage](#usage)  
+   - [🎯 Running Specific Steps](#running-specific-steps)  
+   - [🧬 Main Rules](#main-rules)  
+   - [🐞 Error Handling and Debugging](#error-handling-and-debugging)  
+5. [🗂 Repository Structure](#repository-structure)  
+6. [🔗 External Tools and References](#external-tools-and-references)  
+7. [📬 Contact](#contact)  
+8. [💬 Community Support](#community-support-)  
+9. [📄 License](#license)  
+10. [🧾 Citation](#citation)
 
 ## Quick Start
 
