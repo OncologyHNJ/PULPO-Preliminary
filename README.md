@@ -173,6 +173,11 @@ snakemake --cores <n> --printshellcmds --keep-going --rerun-incomplete
 - `rules/` - Snakemake rules organized by analysis stages.
 - `scripts/` - Additional scripts for data processing.
 - `config/` - Configuration files.
+- `DATA/`- Default folder where the synthetic data is given.
+- `results/`- Default folder where all the results are located.
+- `logs/`- Default folder where all the log files are located. 
+ 
+
   
 ## External Tools and References 🔗
 
