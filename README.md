@@ -11,7 +11,7 @@
 <!-- Badges aligned to the right -->
 <p align="right">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"/>
-  <img src="https://img.shields.io/badge/Snakemake-v1.0-blue" alt="Snakemake Version"/>
+  <img src="https://img.shields.io/badge/Snakemake-v7.32.4-blue" alt="Snakemake Version"/>
   <img src="https://img.shields.io/badge/Conda-environment-green" alt="Conda"/>
   <a href="https://doi.org/10.1101/2025.07.02.661487">
     <img src="https://img.shields.io/badge/DOI-10.1101%2F2025.07.02.661487-blue.svg" alt="DOI">
