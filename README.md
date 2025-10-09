@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Conda-environment-green" alt="Conda"/>
   <a href="https://doi.org/10.1101/2025.07.02.661487">
     <img src="https://img.shields.io/badge/DOI-10.1101%2F2025.07.02.661487-blue.svg" alt="DOI">
-<a href="https://doi.org/10.5281/zenodo.17306078"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17306078.svg" alt="DOI"></a>
+<a <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17306078.svg" alt="DOI"></a>
 </p>
 
 ###### Implemented by: 
