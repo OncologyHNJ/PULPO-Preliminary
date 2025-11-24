@@ -20,7 +20,7 @@
          src="https://img.shields.io/badge/preprint-bioRxiv-blue">
   </a>
   <a href="https://doi.org/10.5281/zenodo.17700531">
-    <img alt="10.5281/zenodo.17700531"
+    <img alt="Zenodo DOI:"
          src="https://zenodo.org/badge/DOI/10.5281/zenodo.17700531.svg">
   </a>
 </p>
