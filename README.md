@@ -19,7 +19,7 @@
     <img alt="bioRxiv preprint DOI: 10.1101/2025.07.02.661487"
          src="https://img.shields.io/badge/preprint-bioRxiv-blue">
   </a>
-  <a href="https://doi.org/10.5281/zenodo.17306078">
+  <a href="https://doi.org/10.5281/zenodo.17306077">
     <img alt="Zenodo DOI:10.5281/zenodo.17306077"
          src="https://zenodo.org/badge/DOI/10.5281/zenodo.17306077.svg">
   </a>
