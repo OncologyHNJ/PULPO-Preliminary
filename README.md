@@ -9,7 +9,7 @@
 </p>
 
 <!-- Title and description -->
-<h1 align="left"> PULPO- Preliminary</h1>
+<h1 align="left"> PULPO-Preliminary</h1>
 <h3 align="left"> Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
 
 <!-- Badges aligned to the right -->
